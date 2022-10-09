@@ -24,7 +24,7 @@ export default (description, getQuestion) => {
             console.log('Correct!');
         } else {
             console.log(`Your answer: '${userAns}' is wrong answer ;(. Correct answer was '${correctAns}'.`);
-            console.log(`Let's try again, ${name}l!`);
+            console.log(`Let's try again, ${name}!`);
             return;
         }
     }
